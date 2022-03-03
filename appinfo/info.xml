@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>nkhooks</id>
+    <name>nkHooks</name>
+    <summary>Web hooks</summary>
+    <description><![CDATA[Execute web hooks on demand]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="cupuyc@gmail.com" homepage="https://github.com/reekol">Nikolay Terziev</author>
+    <namespace>Nkhooks</namespace>
+    <category>tools</category>
+    <bugs>https://reeko.github.com</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="23"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>nkHooks</name>
+            <route>nkhooks.page.index</route>
+        </navigation>
+    </navigations>
+</info>

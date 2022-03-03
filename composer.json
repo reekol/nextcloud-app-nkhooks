@@ -1,0 +1,13 @@
+{
+    "name": "vendor_name/nkhooks",
+    "description": "Web hooks",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Nikolay Terziev"
+        }
+    ],
+    "require": {},
+    "require-dev": {}
+}
